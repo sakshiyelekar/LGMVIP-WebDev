@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Flower<span>.</span></a>
+      <ul class="navigation">
+        <li> <a href="#banner">Home</a> </li>
+        <li> <a href="#about">About</a> </li>
+        <li> <a href="#gallery">Gallery</a> </li>
+        <li> <a href="#bouquet">Bouquet</a> </li>
+        <li> <a href="#contact">Contact</a> </li>
+      </ul>
+    </header>
+    <section class="banner" id="banner">
+      <div class="content">
+        <h2>FRAGRANT<br>FLOWER</h2>
+        <p>The Fragrance of the flowers spreads only in the direction of the wind.
+          But the goodness of a person spreads in all directions.</p>
+          <a href="#" class="btn">Our Gallery</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+       <div class="row">
+         <div class="col50">
+           <h2 class="titleText"><span>A</span>bout Us</h2>
+           <p>Our events and weddings aretruly breathtaking and we braing a vast wealth of experience to make
+every event special, original amd stunning. <br><br> Propelled by our affection for flowers and energy about nature,
+             it is our obsession to make creative and noteworthy plant and new flower courses of action.
+             <br><br>We trust that the best, freshest flowers deliver the most noteworthy presentations.</p>
+         </div>
+
+         <div class="col50">
+           <div class="imgBx">
+             <img src="about.jpg">
+           </div>
+         </div>
+       </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="title">
+        <h2 class="titleText">Our <span>G</span>allery</h2>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgBx">
+            <img src="p1.jpg">
+          </div>
+          <div class="text">
+            <h3>White Roses</h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="imgBx">
+            <img src="p2.jpg">
+          </div>
+          <div class="text">
+            <h3>Pink Roses</h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="imgBx">
+            <img src="p3.jpg">
+          </div>
+          <div class="text">
+            <h3>Red Roses</h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="imgBx">
+            <img src="p6.jpg">
+          </div>
+          <div class="text">
+            <h3>White Orchid </h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="imgBx">
+            <img src="p5.jpg">
+          </div>
+          <div class="text">
+            <h3>Orchid </h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="imgBx">
+            <img src="p9.png">
+          </div>
+          <div class="text">
+            <h3>Blue Orchid</h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="imgBx">
+            <img src="p4.jpg">
+          </div>
+          <div class="text">
+            <h3>Carnation </h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="imgBx">
+            <img src="p8.jpg">
+          </div>
+          <div class="text">
+            <h3>Gerbera </h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="imgBx">
+            <img src="p7.jpg">
+          </div>
+          <div class="text">
+            <h3>Pink Gerbera</h3>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <a href="#" class="btn">View All</a>
+      </div>
+    </section>
+
+    <section class="bouquet" id="bouquet">
+      <div class="title">
+        <h2 class="titleText">Our <span>B</span>ouquet</h2>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgBx">
+            <img src="b4.jpg">
+          </div>
+          <div class="text">
+            <h3>Someone</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="b3.jpg">
+          </div>
+          <div class="text">
+            <h3>Someone</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="b2.jpg">
+          </div>
+          <div class="text">
+            <h3>Someone</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="b1.jpg">
+          </div>
+          <div class="text">
+            <h3>Someone</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="title">
+        <h2 class=titleText><span>C</span>ontact Us</h2>
+      </div>
+      <div class="contactform">
+        <h3>Send Message</h3>
+        <div class="inputBox">
+          <input type="text" placeholder="Name">
+        </div>
+        <div class="inputBox">
+          <input type="text" placeholder="Email">
+        </div>
+        <div class="inputBox">
+          <textarea placeholder="Name"></textarea>
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="Send">
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+       window.addEventListener('scroll', function(){
+         const header = document .querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0);
+       });
+    </script>
+  </body>
+</html>
